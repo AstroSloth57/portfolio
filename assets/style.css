@@ -3,6 +3,7 @@
     --main-text: #E7E7E7;
     --border: #C1D912;
     --main-font: 'Bodoni', 'Optima', sans-serif;
+    --backgrounds: #B226A9;
 }
 
 body {
@@ -17,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #B226A9;
+    background-color: var(--backgrounds);
     color: var(--main-text);
     padding-left: 25px;
     font-family: var(--main-font);
@@ -52,7 +53,7 @@ h2 {
 
 article p {
     padding: 10px;
-    color: var(--main-text)
+    color: var(--main-text);
 }
 
 article ul {
@@ -66,11 +67,74 @@ figure {
     border: 5px solid white;
 }
 
-.first-project {
+.surf-report {
     display: flex;
-    flex-wrap: nowrap;
-    border: 5px solid white;
-    min-width: 500px;
-    min-height: 150px;
-    background-image: url('/assets/images/surf-report.jpg');
+    align-items: center;
+    background-image: url(/assets/images/surf-report.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    border: 5px solid var(--backgrounds);
+    background-size: cover;
+    margin: 5px;
+}
+
+.work-label {
+    display: flex;
+    align-items: center;
+    background-color: var(--backgrounds);
+    width: 125px;
+    height: 50px;
+}
+
+.led-wall {
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/images/led-wall.jpg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    border: 5px solid var(--backgrounds);
+    background-size: cover;
+    margin: 5px;
+}
+
+.work-pages {
+    display: flex;
+}
+
+.calculator {
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/images/calculator.jpg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    border: 5px solid var(--backgrounds);
+    background-size: cover;
+    margin: 5px;
+}
+
+.pastel-puzzles {
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/images/pastel-puzzles.jpg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    border: 5px solid var(--backgrounds);
+    background-size: cover;
+    margin: 5px;
+}
+
+.run-buddy {
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/images/run-buddy.jpg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    border: 5px solid var(--backgrounds);
+    background-size: cover;
+    margin: 5px;
 }
