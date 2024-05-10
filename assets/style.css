@@ -46,6 +46,12 @@ article {
 
 h2 {
     padding: 10px;
+    min-width: 150px;
+    color: var(--main-text)  
+}
+
+.labels {
+    padding: 10px;
     border-right: 3px solid var(--border);
     min-width: 150px;
     color: var(--main-text)
@@ -63,6 +69,10 @@ article ul {
     justify-content: space-between;
 }
 
+article ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 figure {
     border: 5px solid white;
 }
@@ -102,7 +112,6 @@ figure {
 .work-pages {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .calculator {
@@ -148,14 +157,75 @@ figure {
     border: 5px solid var(--border);
 }
 
+.profile-pic {
+    height: 100px;
+    width: 75px;
+    padding: 5px;
+}
+
+.small-icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 992px) {
+    .surf-report {
+        display: flex;
+        align-items: center;
+        background-image: url(/assets/images/surf-report.jpg);
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 225px;
+        border: 5px solid var(--backgrounds);
+        background-size: cover;
+        margin: 5px;
+    }
     
-}
-
-@media screen and (max-width: 768px) {
+    .led-wall {
+        display: flex;
+        align-items: center;
+        background-image: url(/assets/images/led-wall.jpg);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 113px;
+        border: 5px solid var(--backgrounds);
+        background-size: cover;
+        margin: 5px;
+    }
     
-}
-
-@media screen and (max-width: 576px) {
+    .calculator {
+        display: flex;
+        align-items: center;
+        background-image: url(/assets/images/calculator.jpg);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 113px;
+        border: 5px solid var(--backgrounds);
+        background-size: cover;
+        margin: 5px;
+    }
     
+    .pastel-puzzles {
+        display: flex;
+        align-items: center;
+        background-image: url(/assets/images/pastel-puzzles.jpg);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 113px;
+        border: 5px solid var(--backgrounds);
+        background-size: cover;
+        margin: 5px;
+    }
+    
+    .run-buddy {
+        display: flex;
+        align-items: center;
+        background-image: url(/assets/images/run-buddy.jpg);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 113px;
+        border: 5px solid var(--backgrounds);
+        background-size: cover;
+        margin: 5px;
+    }
 }

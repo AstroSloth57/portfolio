@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
-<body>   
+
+<body>
     <header>
-        <h1>Nick Weierke</h1>
+        <div>
+            <h1>Nick Weierke</h1>
+            <img class="profile-pic" src="/assets/images/profile-photo.jpeg" />
+        </div>
         <nav>
             <ul>
                 <li><a href="#about_me">About Me</a></li>
                 <li><a href="#work">Work</a></li>
-                <li><a href="#contact_me">Contact Me</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
     </header>
@@ -22,39 +27,46 @@
     </section>
     <main>
         <article id="about_me">
-            <h2>About Me</h2>
-            <p>I am 23 years old and just beginning my coding journey! I am currently in a coding bootcamp through the Univerity of Minnesota. A few fun facts about me are that I live with 3 cats, and I absolutely love MN Sports, especially the Vikings! Check back to this page as to see my progress as I learn and develop more projects, thank you!</p>
+            <h2 class="labels">About Me</h2>
+            <p>I am 23 years old and just beginning my coding journey! I am currently in a coding bootcamp through the
+                Univerity of Minnesota. A few fun facts about me are that I live with 3 cats, and I absolutely love MN
+                Sports, especially the Vikings! Check back to this page as to see my progress as I learn and develop
+                more projects, thank you!</p>
         </article>
         <nav class="work-pages" id="work">
-            <h2>Work</h2>
-            <a href="surfreport.com">
-                <section class="surf-report">
-                    <h3 class="work-label">Surf Report</h3>
+            <h2 class="labels">Work</h2>
+            <section>
+                <a href="surfreport.com">
+                    <section class="surf-report">
+                        <h3 class="work-label">Surf Report</h3>
+                    </section>
+                </a>
+                <section class="small-icons">
+                    <a href="ledwall.com">
+                        <section class="led-wall">
+                            <h3 class="work-label">LED Wall</h3>
+                        </section>
+                    </a>
+                    <a href="calculator.com">
+                        <section class="calculator">
+                            <h3 class="work-label">Calculator</h3>
+                        </section>
+                    </a>
+                    <a href="pastelpuzzles.com">
+                        <section class="pastel-puzzles">
+                            <h3 class="work-label">Pastel Puzzles</h3>
+                        </section>
+                    </a>
+                    <a href="runbuddy.com">
+                        <section class="run-buddy">
+                            <h3 class="work-label">Run Buddy</h3>
+                        </section>
+                    </a>
                 </section>
-            </a>
-            <a href="ledwall.com">
-                <section class="led-wall">
-                    <h3 class="work-label">LED Wall</h3>
-                </section>
-            </a>
-            <a href="calculator.com">
-                <section class="calculator">
-                    <h3 class="work-label">Calculator</h3>
-                </section>
-            </a>
-            <a href="pastelpuzzles.com">
-                <section class="pastel-puzzles">
-                    <h3 class="work-label">Pastel Puzzles</h3>
-                </section>
-            </a>
-            <a href="runbuddy.com">
-                <section class="run-buddy">
-                    <h3 class="work-label">Run Buddy</h3>
-                </section>
-            </a>
+            </section>
         </nav>
         <article id="contact-me">
-            <h2>Contact Me</h2>
+            <h2 class="labels">Contact Me</h2>
             <ul>
                 <li><a href="952-454-8591">952-454-8591</a></li>
                 <li><a href="nickweierke@yahoo.com">nickweierke@yahoo.com</a></li>
@@ -64,4 +76,4 @@
     </main>
 </body>
 
-    </html>
+</html>
